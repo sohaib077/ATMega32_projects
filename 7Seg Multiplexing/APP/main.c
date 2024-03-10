@@ -19,7 +19,7 @@ u8 SSD_u8SetNumber(u8 Copy_u8Number, SSD *Copy_SSDPtr) {
 			Copy_SSDPtr->type == SSD_ANODE_TYPE ?
 					~SSD_ARR[Copy_u8Number] : SSD_ARR[Copy_u8Number];
 	Locale_u8ErrorState += DIO_u8SetPortDirection(Copy_SSDPtr->port,
-	DIO_u8PORT_HIGH);
+	DIO_u8PORT_OUTPUT);
 	Locale_u8ErrorState += DIO_u8SetPortValue(Copy_SSDPtr->port,
 			Locale_u8Number);
 	if (Locale_u8ErrorState == 0)
@@ -53,7 +53,7 @@ u8 SSD_u8DisableSsd(SSD *Copy_SSDPtr) {
 			Locale_u8PinValue);
 }
 
-int main() {
+int changeMeToName() {
 	PORT_voidInit();
 	SSD ssd = { SSD_CATHODE_TYPE, DIO_u8PORTC, DIO_u8PORTA, DIO_u8PIN0 };
 	SSD_u8EnableSsd(&ssd);
