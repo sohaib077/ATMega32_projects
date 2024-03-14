@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>garage_system</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+		<nature>de.innot.avreclipse.core.avrnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>APP</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Projects/Garage%20system/APP</locationURI>
+		</link>
+		<link>
+			<name>HAL</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Projects/Garage%20system/HAL</locationURI>
+		</link>
+		<link>
+			<name>LIB</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Projects/Garage%20system/LIB</locationURI>
+		</link>
+		<link>
+			<name>MCAL</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Projects/Garage%20system/MCAL</locationURI>
+		</link>
+		<link>
+			<name>Proteus Design</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Projects/Garage%20system/Proteus%20Design</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
